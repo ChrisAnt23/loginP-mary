@@ -1,0 +1,199 @@
+<html>
+<head>
+<title>Caratula</title>
+<body>
+
+<center><img src="56.PNG" width="1000" height ="130"> </center>
+
+
+<center><table width="1000"  height ="90"></center>
+<tr>
+	<td><p align="left"><input type="date" ></td>
+<td rowspan="2">                                                        
+<center><font size="4"><font face="tahoma"><strong>C</strong>olegio de <strong>E</strong>studios <strong>C</strong>ientíficos y <strong>T</strong>ecnológicos 
+del <strong>E</strong>stado de <strong> M</strong>éxico </font></font><font size="4"><font face="tahoma"><font size="4"><font face="tahoma"> <strong>P</strong>lantel <strong>I</strong>xtlahuaca</font></font></center>
+<br><marquee  behavior="alternate"><center><img src="Bienvenida.png" width="340" height ="70"</center></br></marquee></br>
+
+<center><font size="5"><font face="Monotype Corsiva "><font color="blue">PORTAFOLIO DE EVIDENCIAS PRIMER PARCIAL</center></font></font></font>
+
+<center><font size="4"><font face="tahoma"><strong>Módulo lll:</strong>  Desarrolla aplicaciones web</font></font></center>
+
+<center><font size="4"><font face="tahoma"><strong>Submódulo l:</strong> Construye páginas web</font></font></center>
+
+<center><font size="4"><font face="tahoma"><strong>Submódulo ll: </strong>Desarrolla aplicaciones que se ejecutan en el cliente</font></font></center>
+
+<center><font size="4"><font face="tahoma"><strong>Submódulo lll: </strong>Desarrolla aplicaciones que se ejecutan en el servidor</font></font></center>
+
+<center><font size="4"><font face="tahoma"><strong>Alumna:</strong> Marisol Gómez Rodríguez.</font></font></center>
+
+<center><font size="4"><font face="tahoma"><strong>Docente:</strong> Celia Romero Pichardo.</font></font></center>
+
+<center><font size="4"><font face="tahoma"><strong>N.L.8.</strong></font></font></center>
+
+<center><font size="4"><font face="tahoma"><strong>Grupo 404.</strong></font></font></center>
+
+<center><font size="4"><font face="tahoma"><strong>Ciclo escolar:</strong> febrero 2024-julio 2024.</font></font></center>
+
+<center><p align=" right "><font size="4"><font face="tahoma"><strong>Fecha:</strong> 26 de febrero de 2024</font></font></center></p>
+
+</rowspan>
+</td>
+
+<td > 
+<script type="text/javascript">
+    function greeting()
+{
+   var today = new Date();
+   var hrs = today.getHours();
+   document.writeln("<CENTER>");
+  // document.write("<H1>Buen");
+   if (hrs < 6)
+      document.write("");
+   else if (hrs < 12)
+      document.write("");
+   else if (hrs <= 18)
+      document.write("");
+   else
+      document.write("");
+   document.writeln("</H1>");
+   //document.write("Ingresaste a esta pagina el ");
+   dayStr = today.toLocaleString();
+   //document.write(dayStr);
+   document.writeln("</CENTER>");
+}
+function montharr(m0, m1, m2, m3, m4, m5, m6, m7, m8, m9, m10, m11)
+{
+   this[0] = m0;
+   this[1] = m1;
+   this[2] = m2;
+   this[3] = m3;
+   this[4] = m4;
+   this[5] = m5;
+   this[6] = m6;
+   this[7] = m7;
+   this[8] = m8;
+   this[9] = m9;
+   this[10] = m10;
+   this[11] = m11;
+}
+function calendar()
+{
+   var monthNames = "EneFebMarAbrMayJunJulAgoSepOctNovDic";
+   var today = new Date();
+   var thisDay;
+   var monthDays = new montharr(31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31);
+   year = today.getYear() ;
+   thisDay = today.getDate();   
+   if (((year % 4 == 0) && (year % 100 != 0)) || (year % 400 == 0))
+   monthDays[1] = 29;
+   nDays = monthDays[today.getMonth()];
+   firstDay = today;
+   firstDay.setDate(1); // works fine for most systems
+   testMe = firstDay.getDate();
+   if (testMe == 2)
+   firstDay.setDate(0);    
+   startDay = firstDay.getDay();
+   document.writeln("<CENTER>");
+   document.write("<TABLE BORDER>");
+   document.write("<TR><TH COLSPAN=10>");
+   document.write(monthNames.substring(today.getMonth() * 3,
+   (today.getMonth() + 1) * 3));
+   document.write(". ");
+   document.write(year);
+   document.write("<TR><TH>D<TH>L<TH>M<TH>M<TH>J<TH>V<TH>S");
+   document.write("<TR>");
+   column = 0;
+   for (i=0; i<startDay; i++)
+   {
+   document.write("<TD>");
+   column++;
+   }
+   for (i=1; i<=nDays; i++)
+   {
+   document.write("<TD>");
+   if (i == thisDay)
+   document.write("<FONT COLOR=\"#FF0000\"><b>")
+   document.write(i);
+   if (i == thisDay)
+   document.write("</b></FONT>")
+   column++;
+   if (column == 7)
+   {
+   document.write("<TR>"); 
+   column = 0;
+   }
+   }
+   document.write("</TABLE>");
+   document.writeln("</CENTER>");
+}
+   greeting();
+   document.write("</br>");
+   calendar();
+   document.write("");
+   </script> 
+ 
+      </td>
+
+
+</tr>
+
+	<td>
+<br> <p align="left"><a href="QUE ES CECYTEM.html"><img src="1Boton.PNG" width="190"  height ="45"><p align="left"><a href="MISION.html"><img src="2Boton.PNG" width="190" height ="45">
+<p align="left"><a href="VISION.html"><img src="3Boton.PNG" width="190" height ="45"><p align="left"><a href="ORGANIGRAMA.html"><img src="4Boton.PNG" width="190" height ="45">   </br></p></td>
+
+<td> 
+<center>
+                        <body>
+                            
+                            <form id="loginForm">
+                                <label for="username" onfocus="this.value=''"><font color="blue">Usuario:</label><br></font>
+                                <input type="text" id="username" name="username"><br>
+                                <label for="password" onfocus="this.value=''"><font color="blue">Contraseña:</label><br></font>
+                                <input type="password" id="password" name="password"><br><br>
+                                <button type="submit">Iniciar Sesión</button>
+					   <input type="reset" value="Limpiar" onclick="username ,password"()"></br></center>
+
+                            </form>
+                        
+                            <script>
+                                // Datos de usuario
+                                const usuarioCorrecto = "Marisol";
+                                const contraseñaCorrecta = "123";
+                        
+                                // Función para verificar el inicio de sesión
+                                function verificarInicioSesion(event) {
+                                    event.preventDefault(); // Evita que el formulario se envíe
+                        
+                                    // Obtener los valores de usuario y contraseña
+                                    const usuario = document.getElementById("username").value;
+                                    const contraseña = document.getElementById("password").value;
+                        
+                                    // Verificar la autenticación
+                                    if (usuario === usuarioCorrecto && contraseña === contraseñaCorrecta) {
+                                        alert("Felicidades has iniciado seción");
+                                        // Redirigir al usuario a otra página
+                                        window.location.href = "https://chrisant23.github.io/mary-menu/"; // Cambia "pagina_de_bienvenida.html" por la URL de la página a la que deseas redirigir al usuario
+						window.location.href="https://chrisant23.github.io/mary-menu/";
+                                    } else {
+                                        alert("Usuario o contraseña incorrectos.Intentelo nuevamente.");
+                                    }
+                                }
+                        
+                                // Agregar el evento de escucha para el envío del formulario
+                                document.getElementById("loginForm").addEventListener("submit", verificarInicioSesion);
+
+
+                            </script>
+                        </body></center>
+ </td>
+</table>
+
+
+<center><img src="grecas.png" width ="1000" height ="40"></center>
+<font size="1"><font face="tahoma " >Plantel Ixtlahuaca Camino a Santa Ana Ixtlahuaca S/N Ixtlahuaca,México,C.P.50760.num 712 283 0984
+
+
+
+
+</html>
+</head>
